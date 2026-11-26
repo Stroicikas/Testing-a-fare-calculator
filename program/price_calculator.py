@@ -3,7 +3,7 @@ class PriceCalculator:
         if age < 0:
             raise ValueError("Åldern kan inte vara negativ.")
 
-        if age <= 13:
+        if age <= 12:
             return 50
 
         if age < 65:
